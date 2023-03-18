@@ -1,0 +1,64 @@
+@import "libs/slick";
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap");
+
+* {
+    font-family: 'Commissioner', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+$main_color: #1D4645;
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #1D4645;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 154px;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #333333;
+    transition: .3s all;
+    &:hover {
+        transform: scale(1.05);
+        background-color: $main_color;
+        color: #fff;
+    }
+}
+
+
+
+@import "blocks/_header";
+@import "blocks/_main";
+@import "blocks/_play";
+@import "blocks/_sharp";
+@import "blocks/_categories";
+@import "blocks/_winner";
+@import "blocks/_articles";
+@import "blocks/_touch";
+@import "blocks/_footer";
+    
+

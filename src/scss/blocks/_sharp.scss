@@ -1,0 +1,108 @@
+.sharp {
+    margin-top: 167px;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+    }
+
+    &__btn {
+
+    }
+
+    &__lets {
+        margin-top: 63px;
+        padding-left: 50px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: left;
+        text-transform: uppercase;
+        color: #1D4645;
+    }
+
+    &__wrapper {
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        &:last-child {
+            margin-top: 32px;
+        }
+    }
+
+    &__item-main {
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+
+    &__item-main-descr {
+        background-color: #102F2E;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    &__item-main-title {
+        padding: 48px 0 0 37px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FFFFFF;
+
+    }
+
+    &__item-main-subtitle {
+        padding: 23px 21px 0 37px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: justify;
+        color: #D2D2D2;
+    }
+
+    &__item-main-img {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__item {
+        width: 370px;
+        height: 416px;
+        background: #FFF2E6;
+        box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.04);
+        border-radius: 4px;
+        &:nth-child(1) {
+            background: #102F2E;
+        }
+        &:nth-child(3) {
+            background: #102F2E;
+        }
+        
+    }
+
+    &__item-img {
+        display: flex;
+        justify-content: flex-end;
+        padding: 48px 48px 0 0 ;
+    }
+
+    &__item-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 41px;
+        padding-left: 48px;
+        margin-top: 56px;
+        color: #1D4645;
+    }
+    .white {
+        color: #fff;
+    }
+}

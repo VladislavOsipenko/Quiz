@@ -1,0 +1,90 @@
+.winner {
+    min-height: 920px; 
+    background-color: $main_color;
+    overflow: hidden;
+    &__block {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        
+    }
+    &__wrap {
+        display: inline-block;
+        min-width: 360px;
+    }
+    &__title {
+        margin-top: 152px;
+        position: relative;
+        color: #fff;
+        p {
+            color: #fff;
+        }
+    }
+
+    &__all {
+        position: absolute;
+        top: 52px;
+        left: 42px;
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__descr {
+        margin-top: 42px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        color: #D2D2D2;
+    }
+
+    &__img {
+
+        
+    }
+    &__arrows {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 70px;
+    }
+
+    &__arrows-left {
+        cursor: pointer;
+    }
+
+    &__arrows-right {
+        cursor: pointer;
+    }
+}
+.block {
+    position: absolute;
+    top: -38px;
+    width: 170px;
+    height: 44px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+.swiper-slide {
+    display: block;
+}
+.winner__swiper {
+    display: flex;
+    min-width: 0;
+}
+.swiper-button-next {
+    &:after {
+        width: 100px;
+        height: 100px;
+        right: 500px;
+        color: #000;
+        }
+    
+}

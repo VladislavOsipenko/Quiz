@@ -1,0 +1,105 @@
+.footer {
+    background-color: $main_color;
+    padding-bottom: 50px;
+    &__wrapper {
+        padding-top: 90px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__logo {
+        margin-top: -60px;
+    }
+
+    &__info {
+    }
+
+    &__info-title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #E8C5B0;
+    }
+
+    &__info-links {
+        margin-top: 17px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__info-link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+        text-decoration: none;
+        transition: .3s all;
+        &:hover {
+            color: #E8C5B0;
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    &__social-icon {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 100%;
+        background: #E8C5B0;
+        transition: .3s all;
+        &:hover {
+            background: #fff
+        }
+    }
+
+    &__bottom {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__copiright {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.502972);
+    }
+
+    &__bottom-wrap {
+        gap: 60px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: right;
+            color: #FFFFFF;
+            text-decoration: none;
+            transition: .3s all;
+            &:hover {
+                color: #E8C5B0;
+            }
+        }
+    }
+}
+
+.divider {
+    margin-top: 70px;
+    background: #245856;
+    height: 1px;
+    width: 100%;
+}

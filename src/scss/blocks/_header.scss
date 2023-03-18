@@ -1,0 +1,39 @@
+.header {
+
+    &__wrapper {
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__menu {
+        width: 380px;
+        display: flex;
+        margin: 0 auto; 
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+
+    &__li {
+        list-style-type: none;
+        transition: .3s all;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: #333333;
+        text-decoration: none;
+        transition: .3s all;
+        
+    }
+
+}

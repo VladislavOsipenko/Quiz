@@ -1,0 +1,105 @@
+.touch {
+    background: url('../img/bg__2.png') center  no-repeat;
+    min-height: calc(880px + 320px) ;
+    position: relative;
+    &__grean {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: $main_color;
+        height: 432px;
+        z-index: -10;
+    }
+    &__pretitle {
+        padding-top: 185px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #1D4645;
+    }
+
+    &__title {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    &__descr {
+        margin-top: 37px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #5F5F5F;
+    }
+
+    &__box {
+        width: 630px;
+        height: 612px;
+        margin: 0 auto;
+        margin-top: 48px;
+        background: #FFFFFF;
+        box-shadow: 68px 38px 80px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+    }
+
+    &__form {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            padding: 0 15px;
+            box-sizing: border-box;
+            width: 370px;
+            height: 48px;
+            background: #FFFFFF;
+            border: 1px solid #DADADA;
+            border-radius: 4px;
+        }
+        textarea {
+            box-sizing: border-box;
+            padding: 15px 15px;
+            width: 370px;
+            height: 129px;
+            background: #FFFFFF;
+            border: 1px solid #DADADA;
+            border-radius: 4px;
+            resize: none;
+        }
+        button {
+            margin-top: 30px;
+            background-color: $main_color;
+            color: #fff;
+        }
+    }
+
+    &__form-name {
+        margin-top: 84px;
+    }
+
+    &__form-mail {
+    }
+
+    &__form-message {
+    }
+
+    &__form-btn {
+    }
+}
+.input__name {
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #131B42;
+}
+
+.button {
+}

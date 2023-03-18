@@ -1,0 +1,100 @@
+.categories {
+    padding: 155px 0 234px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+    }
+
+    &__btn {
+        
+    }
+
+    &__wrapepr {
+        margin-top: 188px;
+    }
+
+    &__items {
+        display: flex;
+        gap: 30px;
+        &:last-child {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+    }
+
+    &__item {
+        
+        &:nth-child(1) {
+            margin-top: 32px;
+            transform: translateY(-100px);
+            
+        }
+    }
+
+    &__icon {
+        margin-left: 32px;
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+    }
+
+    &__item-title {
+        padding-left: 32px;
+        margin-top: 18px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #1D4645;
+    }
+
+    &__item-descr {
+        padding-left: 32px;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(51, 51, 51, 0.5);
+    }
+}
+.math {
+    width: 470px;
+    height: 352px;
+    background: #FFF2E6;
+    border-radius: 4px;
+}
+.English {
+    width: 370px;
+    height: 352px;
+    background: #FFF2E6;
+    border-radius: 4px;
+}
+.Science {
+    width: 270px;
+    height: 352px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+.Bangla {
+    width: 270px;
+    height: 320px;
+    background: #FFF2E6;
+    border-radius: 4px;
+}
+.General {
+    width: 370px;
+    height: 352px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}

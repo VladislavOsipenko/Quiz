@@ -1,0 +1,111 @@
+.main {
+    background: url('../img/main-img.png') 70% 100%  no-repeat; 
+    padding-bottom: 116px;
+    &__logo {
+        position: absolute;
+        top: 25px;
+        left: 45px;
+    }
+
+    &__wrapper {
+        padding-top: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        padding-top: 80px;
+        font-size: 72px;
+        line-height: 80px;
+    }
+
+    &__subtitle {
+        padding-top: 23px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #3F3F3F;
+    }
+
+    &__form {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        input {
+            
+            padding: 15px 15px 15px 70px;
+            box-sizing: border-box;
+            width: 272px;
+            height: 62px;
+            background: #F2F2F2;
+            border: 1px solid #D3D3D3;
+            border-radius: 8px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: #000000;
+        }
+        p {
+            position: absolute;
+            height: 38px;
+            text-align: center;
+            align-items: center;
+            top: 0px;
+            padding-top: 23px;
+            left: 15px;
+            padding-right: 15px;
+            border-right: 1px #e0e0e0 solid;
+        }
+        button {
+            cursor: pointer;
+            margin-left: 22px;
+            background: #E8C5B0;
+            border: none;
+            border-radius: 4px;
+            width: 170px;
+            height: 48px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #1D4645;
+            transition: .3s all;
+            &:hover {
+                transform: scale(1.05);
+
+            }
+        }
+    }
+
+    &__number {
+        margin-top: 43px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 31px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        span {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 67px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #1D4645;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+}
