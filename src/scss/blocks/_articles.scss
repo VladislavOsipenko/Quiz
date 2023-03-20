@@ -1,14 +1,17 @@
 .articles {
     background-color: $main_color;
     padding-bottom: 78px;
+    margin-top: -1px;
 
     &__title {
         color: #fff;
+        
     }
 
     &__wrapper {
         margin-top: 67px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 

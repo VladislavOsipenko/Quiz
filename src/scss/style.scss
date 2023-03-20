@@ -1,5 +1,4 @@
-@import "libs/slick";
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap");
+
 
 * {
     font-family: 'Commissioner', sans-serif;
@@ -60,5 +59,6 @@ $main_color: #1D4645;
 @import "blocks/_articles";
 @import "blocks/_touch";
 @import "blocks/_footer";
+@import "blocks/_media";
     
 
