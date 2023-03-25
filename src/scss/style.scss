@@ -23,6 +23,7 @@ $main_color: #1D4645;
     line-height: 64px;
     text-transform: capitalize;
     color: #1D4645;
+    
 }
 
 .button {
@@ -59,6 +60,8 @@ $main_color: #1D4645;
 @import "blocks/_articles";
 @import "blocks/_touch";
 @import "blocks/_footer";
+@import "blocks/_modal";
 @import "blocks/_media";
+
     
 

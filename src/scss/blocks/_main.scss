@@ -1,15 +1,28 @@
 .main {
     background: url('../img/main-img.png') 70% 100%  no-repeat; 
-
+    transform: scale(0);
+    transition: all 0.8s;
+    &._active {
+        opacity: 1;
+        transform: scale(1)
+    }
     padding-bottom: 116px;
     &__logo {
         position: absolute;
-        top: 25px;
+        top: -30px;
         left: 45px;
+        opacity: 0;
+        transform: translateX(-120%);
+        transition: all 0.8s;
+        transition-delay: 1s;
+        &._active {
+            opacity: 1;
+            transform: translateX(0)
+            
+        }
     }
 
     &__wrapper {
-        padding-top: 130px;
         display: flex;
         justify-content: space-between;
     }
@@ -33,7 +46,10 @@
         margin-top: 35px;
         display: flex;
         justify-content: space-between;
-        position: relative;
+        
+        form {
+            position: relative;
+        }
         input {
             
             padding: 15px 15px 15px 70px;

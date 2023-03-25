@@ -2,10 +2,17 @@
     background-color: $main_color;
     padding-bottom: 78px;
     margin-top: -1px;
+    overflow: hidden;
 
     &__title {
         color: #fff;
-        
+        opacity: 0;
+        transform: translateX(-120%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateX(0)
+        }
     }
 
     &__wrapper {
@@ -16,6 +23,34 @@
     }
 
     &__item {
+        &:nth-child(1) {
+            opacity: 0;
+            transform: translateX(-120%);
+            transition: all 0.8s;
+            &._active {
+                opacity: 1;
+                transform: translateX(0)
+            }
+        }
+        &:nth-child(2) {
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.8s;
+            &._active {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+        &:nth-child(3) {
+            opacity: 0;
+            transform: translateX(120%);
+            transition: all 0.8s;
+            &._active {
+                opacity: 1;
+                transform: translateX(0)
+            }
+        }
+        
     }
 
     &__img {

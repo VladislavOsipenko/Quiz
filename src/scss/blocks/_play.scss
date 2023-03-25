@@ -15,8 +15,8 @@
     &__items {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
         gap: 30px;
+        
     }
 
     &__item {
@@ -32,6 +32,13 @@
         }
         &:nth-child(2) {
             margin-top: 42px;
+        }
+        opacity: 0;
+        transform: translateY(120%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateY(0)
         }
         
     }

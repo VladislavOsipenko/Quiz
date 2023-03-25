@@ -1,6 +1,7 @@
 .footer {
     background-color: $main_color;
     padding-bottom: 50px;
+    overflow: hidden;
     &__wrapper {
         padding-top: 90px;
         display: flex;
@@ -10,9 +11,23 @@
 
     &__logo {
         margin-top: -60px;
+        opacity: 0;
+        transform: translateX(-120%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateX(0)
+        }
     }
 
     &__info {
+        opacity: 0;
+        transform: scale(0);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: scale(1)
+        }
     }
 
     &__info-title {
@@ -42,11 +57,22 @@
             color: #E8C5B0;
         }
     }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
 
     &__social {
         display: flex;
         justify-content: space-between;
         gap: 8px;
+        opacity: 0;
+        transform: translateX(120%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateX(0)
+        }
     }
 
     &__social-icon {

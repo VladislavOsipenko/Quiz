@@ -19,11 +19,25 @@
         letter-spacing: 3px;
         text-transform: uppercase;
         color: #1D4645;
+        opacity: 0;
+        transform: translateY(-50%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateY(0)
+        }
     }
 
     &__title {
         margin-top: 12px;
         text-align: center;
+        opacity: 0;
+        transform: translateY(-50%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateY(0)
+        }
     }
 
     &__descr {
@@ -33,6 +47,13 @@
         line-height: 32px;
         text-align: center;
         color: #5F5F5F;
+        opacity: 0;
+        transform: translateY(-50%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateY(0)
+        }
     }
 
     &__box {
@@ -80,15 +101,43 @@
 
     &__form-name {
         margin-top: 84px;
+        opacity: 0;
+        transform: translateY(-50%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateY(0)
+        }
     }
 
     &__form-mail {
+        opacity: 0;
+        transform: translateY(-50%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateY(0)
+        }
     }
 
     &__form-message {
+        opacity: 0;
+        transform: translateY(-50%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateY(0)
+        }
     }
 
     &__form-btn {
+        opacity: 0;
+        transform: translateY(-50%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateY(0)
+        }
     }
 }
 .input__name {

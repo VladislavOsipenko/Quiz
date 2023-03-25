@@ -1,4 +1,5 @@
 .sharp {
+    overflow:hidden;
     margin-top: 167px;
     &__wrap {
         display: flex;
@@ -7,9 +8,23 @@
     }
 
     &__title {
+        opacity: 0;
+        transform: translateX(-120%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateX(0)
+        }
     }
 
     &__btn {
+        opacity: 0;
+        transform: scale(0);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: scale(1)
+        }
 
     }
 
@@ -22,6 +37,13 @@
         text-align: left;
         text-transform: uppercase;
         color: #1D4645;
+        opacity: 0;
+        transform: translateX(-120%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateX(0)
+        }
     }
 
     &__wrapper {
@@ -34,12 +56,19 @@
         &:last-child {
             margin-top: 32px;
         }
+        
     }
 
     &__item-main {
         display: flex;
         justify-content: space-between;
-        
+        opacity: 0;
+        transform: translateX(-120%);
+        transition: all 0.8s;
+        &._active {
+            opacity: 1;
+            transform: translateX(0)
+        }
 
     }
 
@@ -79,11 +108,35 @@
         background: #FFF2E6;
         box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.04);
         border-radius: 4px;
+        
         &:nth-child(1) {
             background: #102F2E;
+            opacity: 0;
+            transform: translateX(-120%);
+            transition: all 0.8s;
+            &._active {
+                opacity: 1;
+                transform: translateX(0%)
+            }
+        }
+        &:nth-child(2) {
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.8s;
+            &._active {
+                opacity: 1;
+                transform: scale(1)
+            }
         }
         &:nth-child(3) {
             background: #102F2E;
+            opacity: 0;
+            transform: translateX(120%);
+            transition: all 0.8s;
+            &._active {
+                opacity: 1;
+                transform: translateX(0%)
+            }
         }
         
     }

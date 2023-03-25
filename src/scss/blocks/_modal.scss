@@ -1,0 +1,144 @@
+.modal {
+    position:fixed;
+    display: none;
+    top:0;
+    left:0;
+    z-index:1050;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background-color:rgba(0, 0, 0, 0.5)
+}
+    
+.modal__dialog {
+    max-width:500px;
+    margin:40px auto
+}
+.modal__content {
+    position:relative;
+    width:100%;
+    padding:40px;
+    background-color:#fff;
+    border:1px solid rgba(0,0,0,.2);
+    border-radius:8px;
+    max-height:80vh;
+    overflow-y:auto;
+}
+.modal__close {
+    position:absolute;
+    top:8px;
+    right:14px;
+    font-size:30px;
+    color:#000;
+    opacity:.5;
+    font-weight:700;
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+    transition: .3s all;
+    &:hover {
+        transform: scale(1.06);
+        color: red;
+    }
+}
+.modal__title {
+    text-align:center;
+    font-size:22px;
+    text-transform:uppercase;
+}
+.modal__input {
+    display:block;
+    margin:20px auto 20px auto;
+    width:280px;
+    height:50px;
+    background:#fff;
+    box-shadow:0 4px 15px rgba(0,0,0,.2);
+    border:none;
+    font-size:18px;
+    text-align:center;
+    padding:0 20px;
+    outline:0;
+}
+.modal__btn {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.show {
+    display:block;
+    
+};
+.hide {
+    display:none
+};
+
+
+// .overlay {
+//     display: none;
+//     position: fixed;
+//     z-index: 1000;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(0,0,0,.56 );
+// }
+// .modal {
+    
+//     &__block {
+//         position: absolute;
+//         top: 50%;
+//         left: 50%;
+//         width: 300px;
+//         transform: translate(-50%, -50%);
+//         border-radius: 10px;
+//         background-color: #f2f2f2;
+//         padding: 38px 40px 40px 40px ;
+        
+//     }
+
+//     &__close {
+//         position: absolute;
+//         cursor: pointer;
+//         top: 20px;
+//         right: 20px;
+//         font-size: 40px;
+//         line-height: 40px;
+//         color: #000;
+//         transition: .3s all;
+//         &:hover {
+//             transition: .3s all;
+//             color: red;
+//         }
+//     }
+
+//     &__title {
+//         text-align: center;
+//         color: #000;
+//         padding-bottom: 10px;
+//     }
+
+//     &__subtitle {
+//         text-align: center;
+//         color: #000;
+//     }
+
+//     &__form {
+//         margin-top: 20px;
+//         form {
+//             display: flex;
+//             flex-direction: column;
+//             row-gap: 20px;
+//             input {
+//                 height: 50px;
+//                 padding: 0 15px;
+//                 border:none;
+//                 border: #000;
+//                 border-radius: 10px
+//             }
+//             button {
+//                 margin: 0 auto;
+//                 display: block;
+//             }
+//         }
+        
+//     }
+// }

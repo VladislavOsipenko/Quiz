@@ -14,6 +14,9 @@
         &__grean-bg {
             height: calc(100% + 30px)
         }
+        &__items {
+            flex-wrap: wrap;
+        }
     }
     .sharp {
         &__item-main-subtitle {
@@ -278,6 +281,7 @@
         }
         &__social {
             margin: 0 auto;
+            margin-top: 10px;
             justify-content: center;
         }
         &__bottom {
@@ -288,6 +292,14 @@
         }
         &__bottom-wrap {
             justify-content: center;
+        }
+        &__info {
+            text-align: center;
+        }
+    }
+    .modal {
+        &__content {
+            padding: 40px 0;
         }
     }
 }
@@ -312,9 +324,7 @@
         background: url(../img/main-img.png) 25% (15% / cover) no-repeat;
         background-size: 70%, 25%, 25%;
         &__logo {
-            top: 70px;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 39%;
         }
         &__form {
             justify-content: center;
@@ -325,9 +335,6 @@
                     align-items: center;
                     margin: 0 auto;
                     margin-top: 20px;
-                }
-                p {
-                    left: 35px;
                 }
             }
         }
@@ -416,6 +423,11 @@
     .footer {
         &__info {
             text-align: center;
+        }
+    }
+    .modal {
+        &__input {
+            width: 240px;
         }
     }
 }
